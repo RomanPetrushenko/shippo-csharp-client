@@ -28,7 +28,10 @@ namespace Shippo {
         [JsonProperty(PropertyName = "provider")]
         public object Provider { get; set; }
 
-        [JsonProperty(PropertyName = "provider_image_75")]
+		[JsonProperty(PropertyName = "carrier_account")]
+		public object CarrierAccount { get; set; }
+
+		[JsonProperty(PropertyName = "provider_image_75")]
         public object ProviderImage75 { get; set; }
 
         [JsonProperty(PropertyName = "provider_image_200")]
